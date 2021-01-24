@@ -1,6 +1,28 @@
 # MERNH_FE
 
-Deployment Instructions
+**List of Features Added**
+- Modified the title in the Tab
+- Added Header
+- Added Base HomeScreen
+
+
+**Implementation Steps:**
+1. Download BootStrap Theme on Bootswatch
+- Drag and Drop this to the frontend/src folder
+- Import files in index.js
+  
+2. Create Header
+3. Create Footer
+4. Create HomeScreen
+5. Configure App.js to add Header, Footer, HomeScreen
+6. Set up Routes on App.js
+7. Set up index.js on frontend public folder to refer to App
+
+
+**Flow** is:
+Index.html > App.js
+
+# Deployment Instructions
 
 1. Create Folder to put Project In
 2. Create frontEnd folder by:
@@ -20,8 +42,8 @@ Deployment Instructions
 - npm i express
 - npm i mongoose
 - npm i dotenv
-- npm i concurrently
-- npm i nodemon 
+- npm i -D concurrently
+- npm i -D nodemon
 
 10. Set up package.json to run FE + BE together
 Add this to your package.json in ROOT Folder:
